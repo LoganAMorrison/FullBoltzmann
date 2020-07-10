@@ -7,3 +7,10 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cyphus-integration = { path = "../../cyphus-integration"}
+cyphus-diffeq = { path = "../../cyphus-diffeq"}
+cyphus-specfun = { path = "../../cyphus-specfun"}
+haliax-thermal-functions = { path = "../../haliax-thermal-functions"}
+haliax-constants = { path = "../../haliax-constants"}
+ndarray = {version = "0.13.1", features=["rayon"]}
+lazy_static = "1.4.0"
